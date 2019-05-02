@@ -115,7 +115,7 @@ class ServiceLoaderUtil {
                                ClassLoader classLoader) throws ClassNotFoundException {
         // using OSGi locator to load the spi class
         try {
-            Class spiClass = org.apache.servicemix.specs.locator.OsgiLocator.locate(JAXBContext.class);
+            Class spiClass = org.apache.karaf.specs.locator.OsgiLocator.locate(JAXBContext.class);
             if (spiClass != null) {
                 return spiClass;
             }
