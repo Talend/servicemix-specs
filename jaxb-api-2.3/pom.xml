@@ -31,7 +31,6 @@
     <groupId>org.apache.servicemix.specs</groupId>
     <artifactId>org.apache.servicemix.specs.jaxb-api-2.3</artifactId>
     <packaging>bundle</packaging>
-    <version>2.3_1</version>
     <name>Apache ServiceMix :: Specs :: JAXB API 2.3</name>
     <version>2.3_1.tesb1</version>
 
