@@ -62,6 +62,11 @@
             <artifactId>jaxb-api</artifactId>
             <version>2.3.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.karaf.specs</groupId>
+            <artifactId>org.apache.karaf.specs.locator</artifactId>
+            <version>4.2.10</version>
+        </dependency>
     </dependencies>
 
     <build>
